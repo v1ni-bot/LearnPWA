@@ -1,7 +1,7 @@
 console.log("main.js carregado.");
 if (navigator.serviceWorker){
     console.log("Navegador possui suporte a PWA.");
-    navigator.serviceWorker.register('/service-worker-minimum-to-intall-pwa.js')
+    navigator.serviceWorker.register('sw.js')
     .then(function(){})
     .catch(function(err){});
 } else {
